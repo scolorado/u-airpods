@@ -1,7 +1,9 @@
 .body{
   background-color: #EBEBEB;
 }
-
+#intro{
+  background-image: linear-gradient( #afafaf, white);
+}
 #naving {
     color: black;
   }
