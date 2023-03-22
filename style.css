@@ -21,17 +21,14 @@
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
+  overflow: hidden;
 }
 li{
   float: left;
   padding:5px;
 }
 li a:hover {
-  color:rgb(139, 139, 139);
+  color:rgba(170, 170, 170, 0.685);
 }
