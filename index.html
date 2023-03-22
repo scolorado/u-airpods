@@ -15,7 +15,7 @@
 <body>
 
 
-<div class="container-fluid">
+<div id="nav" class="container-fluid"  style="position:fixed;">
   <ul>
     <li class="nav-item">
       <img src="img/apple logo.png" alt="Logo" style="width:40px;" class="rounded-pill">
@@ -33,7 +33,8 @@
 </div>
 
 
-  <nav  id="nav" class="navbar navbar-expand-sm fixed-top" style="position:fixed;">
+ <!-- ORIGINAL NAVBAR
+<nav  id="nav" class="navbar navbar-expand-sm fixed-top" style="position:fixed;">
     <div class="container-fluid" id="naving">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -51,6 +52,7 @@
       </ul>
     </div>
   </nav>
+ --> 
 
 
       <div class="container-fluid" id="intro">
@@ -131,7 +133,7 @@
         window.onscroll = function() {myFunction()};
         
         function myFunction() {
-          if (document.documentElement.scrollTop > 50) {
+          if (document.documentElement.scrollTop > 70) {
             document.getElementById("nav").className = "test";
           } else {
             document.getElementById("nav").className = "";
