@@ -5,8 +5,8 @@
 #intro{
   background-image: linear-gradient( #afafaf, white);
 }
-#product{
-  z-index: -1 !important;
+#naving{
+  background-color: #afafaf;
 }
 #title{
   font-family: 'Roboto', sans-serif;
