@@ -27,6 +27,7 @@ ul {
   overflow: hidden;
   margin: 0.5%;
   z-index: 100;
+  font-family: 'Fjalla One', sans-serif;
 }
 #nav{
   width: 100%;
@@ -52,8 +53,10 @@ li a:hover {
   background-color: #afafaf;
   width: 100%;
   z-index: 100;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #ay {
   float: left;
+  padding:5px;
 }
